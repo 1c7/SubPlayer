@@ -5,6 +5,7 @@ import { sleep } from '../utils';
 import Block from './Block';
 import Metronome from './Metronome';
 import { Translate } from 'react-i18nify';
+// 这个 Footer 似乎是核心
 
 const Footer = styled.div`
     display: flex;

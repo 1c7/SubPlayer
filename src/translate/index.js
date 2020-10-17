@@ -1,6 +1,8 @@
 import NProgress from 'nprogress';
 import pLimit from 'p-limit';
 import { sleep, notify } from '../utils/index';
+// 翻译功能，界面上有，选择语言并且点击确定之后，会把当前所有字幕行翻译到那个语言
+// source language 是 auto
 
 export function googleTranslate(query = '', lang) {
     if (!query.trim()) return Promise.resolve('');

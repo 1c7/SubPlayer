@@ -1,5 +1,6 @@
 import clamp from 'lodash/clamp';
 import { timeToSecond, secondToTime } from '../utils';
+// 封装了单行字幕
 
 export default class Sub {
     constructor(start, end, text) {

@@ -1,3 +1,4 @@
+// 语言
 const en = {
     open: 'Open',
     save: 'Save',

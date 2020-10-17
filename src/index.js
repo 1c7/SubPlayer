@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
 import NProgress from 'nprogress';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './serviceWorker'; // ?
 import { isMobile } from './utils';
-import { setTranslations } from 'react-i18nify';
+import { setTranslations } from 'react-i18nify'; // ?
 import i18n from './i18n';
 import 'normalize.css';
 import './fontello/css/fontello.css';
@@ -16,3 +16,4 @@ setTranslations(i18n);
 NProgress.configure({ minimum: 0, showSpinner: false });
 ReactDOM.render(isMobile() ? 'SubPlayer does not support mobile access' : <App />, document.getElementById('root'));
 serviceWorker.unregister();
+// 这是拿 React 写的

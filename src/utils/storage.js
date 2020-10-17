@@ -1,3 +1,5 @@
+// 好像就是给 localStorage 简单包了一层
+
 export default class Storage {
     constructor() {
         this.name = 'subplayer_settings';

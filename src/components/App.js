@@ -19,6 +19,7 @@ let inTranslation = false;
 const storage = new Storage();
 const worker = new Worker(vttToUrlUseWorker());
 
+// 学习一下 React
 export default function() {
     // Player instance
     const [player, setPlayer] = useState(null);

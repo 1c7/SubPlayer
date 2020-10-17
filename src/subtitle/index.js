@@ -1,5 +1,6 @@
 import { getExt, secondToTime } from '../utils';
 import Sub from './sub';
+// 和 vtt 相关的一堆函数
 
 export function checkIsFile(source) {
     return source instanceof File;
